@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>grupo 5</title>
+		<style>
+			button
+			{
+				height: 150px;
+				width: 150px;
+				border-style: none;
+				font-family: Courier New;
+				color: white;
+				background-color: #9932CC;
+				transition: width 3s, height 5s, transform 2s;
+				
+			}
+			button:hover
+			{
+				animation: play 3s linear 0s infinite normal;
+				width: 400px;
+                height: 400px;
+                transform: rotate(360deg)
+			}
+			@keyframes play
+			{
+				0% {transform: rotate(0deg);}
+				50% {transform: rotate(180deg);}
+				100%{transform: rotate(360deg);}
+			}
+		</style>
+	</head>
+	<body>
+		<button>>Exercício Grupo 5</button>
+	</body>
+</html>
